@@ -3,8 +3,8 @@
 #include <stdlib.h>
  int main (){
  	printf("Press any key to flip a coin! \n\n");
-  short x; scanf("%d",x);
+  short x;
+  scanf("%d",x);
  	srand(time(0));
  	short y = (rand() % 500) + 1;
- 		y >= 250 ? printf("Heads!\n") : printf("Tails!\n");
- 	return 0;}
+ 		y >= 250 ? printf("Heads!\n") : printf("Tails!\n");}
